@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- default image for link share -->
     <!-- Set default preview image for social media sharing -->
-    <meta property="og:image" content="https://shohaghasan.com/SuperCloud/image/share_img.png">
-    <meta property="og:image:secure_url" content="https://shohaghasan.com/SuperCloud/image/share_img.png">
+    <meta property="og:image" content="image/share_img.png">
+    <meta property="og:image:secure_url" content="image/share_img.png">
     <!-- Replace the above content attributes with the URL of your default image -->
 
     <!-- Other meta tags for Open Graph Protocol -->
     <meta property="og:title" content="Super Cloud Flight">
     <!-- google ad script -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PQPK5ER7K"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-0PQPK5ER7K'); </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PQPK5ER7K"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-0PQPK5ER7K'); </script>
 
     <title>Super CloudFlight</title>
     <link rel="icon" href="image/favicon.jpeg">
@@ -27,7 +28,6 @@
         rel="stylesheet" />
     <!-- font -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -40,96 +40,139 @@
 <body>
     <div class="body_wrap">
 
-
         <!-- banner section start -->
-        <section class="banner">
-            <div class="container">
-                <!-- header block st -->
-                <div class="row">
-                    <div class="col-5 logo">
-                        <img src="image/logo.png" class="img-fluid" alt="" />
-                    </div>
-                    <div class="col-7">
-                        <div class="header_wrapper">
-                            <div class="h_left_content">
-                                <a href="#" class="">Merch Shop</a>
+        <section class="banner_wrapper">
+            <video src="video/banner.mp4" muted autoplay loop playsinline></video>
+            <div class="sub_banner_section">
+                <div class="banner">
+                    <div class="container">
+                        <!-- header block st -->
+                        <div class="row align-items-center position-relative mobile_">
+                            <div class="col-5 logo">
+                                <img src="image/logo.png" class="img-fluid" alt="" />
                             </div>
-                            <div class="h_right_content">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa-brands fa-discord"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
-                                    </li>
-                                </ul>
+                            <div class="col-7">
+                                <div class="header_wrapper">
+                                    <div class="h_left_content">
+                                        <a href="#" class="">Merch Shop</a>
+                                    </div>
+                                    <div class="h_right_content">
+                                        <ul>
+                                            <li class="custom_f overflow-hidden">
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- mobile menu -->
+
+                                <nav class="navbar navbar-expand-lg bg-light">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <div class="toggle">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav">
+                                            <li>
+                                                <a href="#"><img src="image/fb_phone.png"
+                                                        class="img-fluid header_fb_icon" alt=""></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="image/tl_phone.png"
+                                                        class="img-fluid header_telegram_icon" alt=""></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- header block end -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="banner_button_wrapper">
+                                    <ul>
+                                        <li>
+                                            <button class="btn_effect">
+                                                <img class="img-fluid" src="image/image.png" alt="" /><span>Steam</span>
+                                            </button>
+                                        </li>
+
+                                        <li>
+                                            <button class="btn_effect">
+                                                <img class="img-fluid" src="image/image (1).png" alt="" /><span>Epic
+                                                    Games</span>
+                                            </button>
+                                        </li>
+
+                                        <li>
+                                            <button class="btn_effect">
+                                                <img class="img-fluid" src="image/image (2).png" alt="" /><span>Humble
+                                                    Bundle</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- header block end -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="banner_button_wrapper">
-                            <ul>
-                                <li>
-                                    <button class="btn_effect">
-                                        <img class="img-fluid" src="image/image.png" alt="" /><span>Stearm</span>
-                                    </button>
-                                </li>
 
-                                <li>
-                                    <button class="btn_effect">
-                                        <img class="img-fluid" src="image/image (1).png" alt="" /><span>Epic
-                                            Games</span>
-                                    </button>
-                                </li>
+                    <!-- shape img-->
 
-                                <li>
-                                    <button class="btn_effect">
-                                        <img class="img-fluid" src="image/image (2).png" alt="" /><span>Humble
-                                            Bundel</span>
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="banner_left_shape shape_one animate_one" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="image/Group 28088.png" class="img-fluid" alt="" />
                     </div>
+
+                    <div class="banner_left_shape shape_two animate_two" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="image/Group 28082.png" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="banner_left_shape shape_three animate_one" data-aos="fade-right"
+                        data-aos-duration="2000">
+                        <img src="image/welcome_shap1.png" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="banner_right_shape shape_four animate_one" data-aos="fade-left"
+                        data-aos-duration="1000">
+                        <img src="image/Group 28088 r(1).png" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="banner_right_shape shape_five animate_two" data-aos="fade-left"
+                        data-aos-duration="1500">
+                        <img src="image/Group 28082 r (1).png" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="banner_right_shape shape_six animate_one" data-aos="fade-left" data-aos-duration="2000">
+                        <img src="image/all_in_one.png" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="shape_seven">
+                        <img src="image/Ellipse 2 (1).png" class="img-fluid" alt="" />
+                    </div>
+
+                    <!-- shape img-->
                 </div>
             </div>
-
-            <!-- shape img-->
-
-            <div class="banner_left_shape shape_one animate_one" data-aos="fade-right" data-aos-duration="1000">
-                <img src="image/Group 28088.png" class="img-fluid" alt="" />
-            </div>
-            
-            <div class="banner_left_shape shape_two animate_two" data-aos="fade-right" data-aos-duration="1500">
-                <img src="image/Group 28082.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="banner_left_shape shape_three animate_one" data-aos="fade-right" data-aos-duration="2000">
-                <img src="image/welcome_shap1.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="banner_right_shape shape_four animate_one" data-aos="fade-left" data-aos-duration="1000">
-                <img src="image/Group 28088 r(1).png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="banner_right_shape shape_five animate_two" data-aos="fade-left" data-aos-duration="1500">
-                <img src="image/Group 28082 r (1).png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="banner_right_shape shape_six animate_one" data-aos="fade-left" data-aos-duration="2000">
-                <img src="image/all_in_one.png" class="img-fluid" alt="" />
-            </div>
-
-            <!-- shape img-->
         </section>
         <!-- banner section end -->
 
@@ -193,12 +236,13 @@
                 </div>
 
                 <div class="row gy-5 mt-5">
-                    <div class="col-sm-5 welcome_item_wrapper">
-                        <div class="wel_left_item video" style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right" data-aos-duration="1500">
-                            <video  src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
+                    <div class="col-sm-5 mb-4 welcome_item_wrapper">
+                        <div class="wel_left_item video" style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right"
+                            data-aos-duration="1500">
+                            <video src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
                         </div>
                     </div>
-                    <div class="col-sm-7 welcome_item_wrapper position-relative">
+                    <div class="col-sm-7 mb-4  welcome_item_wrapper position-relative">
                         <div class="wel_right_item" data-aos="fade-left" data-aos-duration="1500">
                             <h3>topic 01</h3>
                             <p>
@@ -208,7 +252,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-7 welcome_item_wrapper position-relative">
+                    <div class="col-sm-7 mb-4 welcome_item_wrapper position-relative">
                         <div class="wel_middle_item" data-aos="fade-right" data-aos-duration="1500">
                             <h3>topic 02</h3>
                             <p>
@@ -218,18 +262,20 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-5 welcome_item_wrapper position-relative" data-aos="fade-left"
+                    <div class="col-sm-5 mb-4 welcome_item_wrapper position-relative" data-aos="fade-left"
                         data-aos-duration="1500">
-                        <div class="wel_right_video video" style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right" data-aos-duration="1500">
-                            <video  src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
+                        <div class="wel_right_video video" style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right"
+                            data-aos-duration="1500">
+                            <video src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
                         </div>
                     </div>
-                    <div class="col-sm-5 welcome_item_wrapper">
-                        <div class="wel_left_item video" style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right" data-aos-duration="1500">
-                            <video  src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
+                    <div class="col-sm-5 mb-4 welcome_item_wrapper">
+                        <div class="wel_left_item video " style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right"
+                            data-aos-duration="1500">
+                            <video src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
                         </div>
                     </div>
-                    <div class="col-sm-7 welcome_item_wrapper position-relative">
+                    <div class="col-sm-7 mb-4 welcome_item_wrapper position-relative">
                         <div class="wel_right_item" data-aos="fade-left" data-aos-duration="1500">
                             <h3>topic 03</h3>
                             <p>
@@ -251,8 +297,9 @@
                     </div>
                     <div class="col-sm-5 welcome_item_wrapper position-relative" data-aos="fade-left"
                         data-aos-duration="1500">
-                        <div class="wel_right_video video" style="--aspect-ratio: calc(4 / 3)" data-aos="fade-right" data-aos-duration="1500">
-                            <video  src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
+                        <div class="wel_right_video video wel_las" style="--aspect-ratio: calc(4 / 3)"
+                            data-aos="fade-right" data-aos-duration="1500">
+                            <video src="video/2023-10-24 13-39-57.mp4" muted autoplay loop playsinline></video>
                         </div>
                     </div>
                 </div>
@@ -294,11 +341,11 @@
 
                 <!-- all_in_one_header -->
 
-                <div class="row feature_items align-items-center desktop_view">
+                <div class="row feature_items align-items-center desktop_view feature_container">
                     <div class="col-md-5 text-align-center z-3" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                        rel="group1" data-link="image/gallery_img.png"  alt="" />
-                        
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group1" data-link=""
+                            alt="" />
+
                     </div>
                     <div class="col-md-7 z-3" data-aos="fade-left" data-aos-duration="1000">
                         <h3>feature 01</h3>
@@ -317,12 +364,12 @@
                         </p>
                     </div>
                     <div class="col-md-5 text-align-center z-3" data-aos="fade-left" data-aos-duration="1000">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                            rel="group1" data-link="image/gallery_img.png"  alt="" />
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group1"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
                     <div class="col-md-5 text-align-center z-3" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                        rel="group1" data-link="image/gallery_img.png"  alt="" />
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group1"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
                     <div class="col-md-7 z-3" data-aos="fade-left" data-aos-duration="1000">
                         <h3>feature 03</h3>
@@ -341,80 +388,92 @@
                         </p>
                     </div>
                     <div class="col-md-5 text-align-center z-3" data-aos="fade-left" data-aos-duration="1000">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                            rel="group1" data-link="image/gallery_img.png"  alt="" />
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group1"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
                 </div>
 
                 <!-- carousel for mobile device -->
 
-                <div class="owl-carousel feature_carousel mobile_view">
+                <div class="row">
+                    <div class="owl-carousel feature_carousel mobile_view">
 
-                    <div class="carousel_item">
-                        <div class="text-align-center z-3">
-                            <a href="image/gallery_img.png" class="gallery_img">
-                                <img src="image/gallery_img.png" class="img-fluid" alt="" />
-                            </a>
+                        <div class="carousel_item">
+                            <div class="text-align-center z-3">
+                                <div class="col-md-5 text-align-center z-3" data-aos="fade-left"
+                                    data-aos-duration="1000">
+                                    <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group5"
+                                        data-link="image/gallery_img.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="z-3 feature_content">
+                                <h3>feature 01</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                    ever since the 1500s.
+                                </p>
+                            </div>
                         </div>
-                        <div class="z-3 feature_content">
-                            <h3>feature 01</h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text
-                                ever since the 1500s.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel_item">
-                        <div class="text-align-center z-3">
-                            <a href="image/gallery_img.png" class="gallery_img">
-                                <img src="image/gallery_img.png" class="img-fluid" alt="" />
-                            </a>
-                        </div>
-                        <div class="z-3 feature_content">
-                            <h3>feature 02</h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text
-                                ever since the 1500s.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel_item">
-                        <div class="text-align-center z-3">
-                            <a href="image/gallery_img.png" class="gallery_img">
-                                <img src="image/gallery_img.png" class="img-fluid" alt="" />
-                            </a>
-                        </div>
-                        <div class="z-3 feature_content">
-                            <h3>feature 03</h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text
-                                ever since the 1500s.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel_item">
-                        <div class="text-align-center z-3">
-                            <a href="image/gallery_img.png" class="gallery_img">
-                                <img src="image/gallery_img.png" class="img-fluid" alt="" />
-                            </a>
-                        </div>
-                        <div class="z-3 feature_content">
-                            <h3>feature 04</h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text
-                                ever since the 1500s.
-                            </p>
-                        </div>
-                    </div>
 
+                        <div class="carousel_item">
+                            <div class="text-align-center z-3">
+                                <div class="col-md-5 text-align-center z-3" data-aos="fade-left"
+                                    data-aos-duration="1000">
+                                    <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group5"
+                                        data-link="image/gallery_img.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="z-3 feature_content">
+                                <h3>feature 02</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                    ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
 
+                        <div class="carousel_item">
+                            <div class="text-align-center z-3">
+                                <div class="col-md-5 text-align-center z-3" data-aos="fade-left"
+                                    data-aos-duration="1000">
+                                    <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group5"
+                                        data-link="image/gallery_img.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="z-3 feature_content">
+                                <h3>feature 03</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                    ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel_item">
+                            <div class="text-align-center z-3">
+                                <div class="col-md-5 text-align-center z-3" data-aos="fade-left"
+                                    data-aos-duration="1000">
+                                    <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group5"
+                                        data-link="image/gallery_img.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="z-3 feature_content">
+                                <h3>feature 04</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                    ever since the 1500s.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <!--features section end  -->
 
         <!--awards section start  -->
@@ -422,10 +481,10 @@
             <div class="container">
                 <!-- all_in_one_header -->
                 <div class="row all_in_one_header position-relative">
-                    <div class="col-9 z-3 h_r_bar">
+                    <div class="col_8 z-3 h_r_bar aw_bar_responsive">
                         <div class="barr"></div>
                     </div>
-                    <div class="col-3 z-3 h_l_bt" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col_4 z-3 h_l_bt aw_responsive" data-aos="fade-up" data-aos-duration="1000">
                         <h3>awards & nominations</h3>
                     </div>
                     <!-- shape img-->
@@ -576,6 +635,23 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-6 col-6" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="vactor_single_box">
+                            <a href="#">
+                                <div class="vactor_icons">
+                                    <img src="image/Vector 387.png" class="img-fluid" alt="" />
+                                    <img src="image/Vector 387.png" class="img-fluid" alt="" />
+                                    <img src="image/Vector 387.png" class="img-fluid" alt="" />
+                                </div>
+                                <h5>awards</h5>
+                                <h4>Title DETAIL</h4>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -602,13 +678,16 @@
                     <div class="feature_header_shape2">
                         <img src="image/Ellipse 1.png" class="img-fluid" alt="" />
                     </div>
+                    <div class="commu_header_shape3">
+                        <img src="image/Ellipse 1.png" class="img-fluid" alt="" />
+                    </div>
                     <!-- shape img-->
 
                     <div class="row z-5 comunity_items align-items-center">
                         <div class="col-4 z-5 box_1" data-aos="fade-right" data-aos-duration="1000">
-                            <img src="image/c1.png" class="img-fluid" alt="" />
+                            <video src="video/2023-11-01 22-25-06.mp4" muted autoplay loop playsinline></video>
                         </div>
-                        <div class="col-8 community_text_one" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="col-8 co_1" data-aos="fade-left" data-aos-duration="1000">
                             <h5>community 01</h5>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and <br />
@@ -624,11 +703,11 @@
                             </p>
                         </div>
                         <div class="col-6 z-5 box_2" data-aos="fade-left" data-aos-duration="1000">
-                            <img src="image/c2.png" class="img-fluid" alt="" />
+                            <video src="video/2023-11-01 22-25-06.mp4" muted autoplay loop playsinline></video>
                         </div>
 
                         <div class="col-5 z-5 box_3" data-aos="fade-right" data-aos-duration="1000">
-                            <img src="image/c3.png" class="img-fluid" alt="" />
+                            <video src="video/2023-11-01 22-25-06.mp4" muted autoplay loop playsinline></video>
                         </div>
                         <div class="col-7 co_3" data-aos="fade-left" data-aos-duration="1000">
                             <h5>community 03</h5>
@@ -675,30 +754,30 @@
                 </div>
                 <!-- all_in_one_header -->
 
-                <div class="row gallery_items">
-                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                            rel="group2" data-link="image/gallery_img.png"  alt="" />
+                <div class="row gallery_items gy-3">
+                    <div class="col-md-4 gallery_ig col-sm-6" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group2"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
-                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1300">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                        rel="group2" data-link="image/gallery_img.png"  alt="" />
+                    <div class="col-md-4 gallery_ig col-sm-6" data-aos="fade-up" data-aos-duration="1300">
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group2"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
-                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1600">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                            rel="group2" data-link="image/gallery_img.png"  alt="" />
+                    <div class="col-md-4 gallery_ig col-sm-6" data-aos="fade-up" data-aos-duration="1600">
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group2"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
-                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1900">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                        rel="group2" data-link="image/gallery_img.png"  alt="" />
+                    <div class="col-md-4 gallery_ig col-sm-6" data-aos="fade-up" data-aos-duration="1900">
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group2"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
-                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="2100">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                            rel="group2" data-link="image/gallery_img.png"  alt="" />
+                    <div class="col-md-4 gallery_ig col-sm-6" data-aos="fade-up" data-aos-duration="2100">
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group2"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
-                    <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="2300">
-                        <img src="image/gallery_img.png" class="lightboxed img-fluid" 
-                            rel="group2" data-link="image/gallery_img.png"  alt="" />
+                    <div class="col-md-4 gallery_ig col-sm-6" data-aos="fade-up" data-aos-duration="2300">
+                        <img src="image/gallery_img.png" class="lightboxed img-fluid" rel="group2"
+                            data-link="image/gallery_img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -709,7 +788,8 @@
         <section class="code_request">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 col-sm-12 col-md-9 m-auto code_req_bg" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="col-12 col-sm-12 col-md-12 m-auto code_req_bg" data-aos="zoom-in"
+                        data-aos-duration="1000">
                         <div class="code_req_style">
                             <div class="code_info">
                                 <h3>Content Creators and Influencers</h3>
@@ -745,7 +825,7 @@
                     <div class="col-12">
                         <ul>
                             <li class="fb">
-                                <a href="#" ><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
@@ -783,16 +863,24 @@
         <!-- footer section end -->
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- modal -->
+    
+    <div class="modal fade custom_modal" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-body">
-                <iframe width="100%" height="200px" src="https://store.steampowered.com/widget/500/?utm_source=homepage&utm_campaign=mycampaign"></iframe>
-                <a href="https://store.steampowered.com/app/500/?utm_source=homepage&utm_campaign=mycampaign">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close modal_btn_close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="200px"
+                        src="https://store.steampowered.com/widget/500/?utm_source=homepage&utm_campaign=mycampaign"></iframe>
+                    <a href="https://store.steampowered.com/app/500/?utm_source=homepage&utm_campaign=mycampaign">
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -804,33 +892,32 @@
 
     <script>
         $(document).ready(function () {
-          // Check if the session cookie is set
-          if (!sessionStorage.getItem('popupShown')) {
-            var hasScrolled = false;
-    
-            $(window).scroll(function () {
-              // Check if the modal has been shown and if the user has scrolled halfway down the page
-              if (!hasScrolled && $(window).scrollTop() > ($(window).height() / 2)) {
-                // Show the modal
-                $('#exampleModal').modal('show');
-    
-                // Set the session cookie to indicate that the popup has been shown
-                sessionStorage.setItem('popupShown', 'true');
-    
-                // Set the flag to prevent further scrolls from triggering the modal
-                hasScrolled = true;
-              }
-            });
-    
-            // Add an event listener to the modal close button to clear the session cookie
-            $('#exampleModal').on('hidden.bs.modal', function () {
-              sessionStorage.removeItem('popupShown');
-            });
-          }
+            // Check if the session cookie is set
+            if (!sessionStorage.getItem('popupShown')) {
+                var hasScrolled = false;
+
+                $(window).scroll(function () {
+                    // Check if the modal has been shown and if the user has scrolled halfway down the page
+                    if (!hasScrolled && $(window).scrollTop() > ($(window).height() / 2)) {
+                        // Show the modal
+                        $('#exampleModal').modal('show');
+
+                        // Set the session cookie to indicate that the popup has been shown
+                        sessionStorage.setItem('popupShown', 'true');
+
+                        // Set the flag to prevent further scrolls from triggering the modal
+                        hasScrolled = true;
+                    }
+                });
+
+                // Add an event listener to the modal close button to clear the session cookie
+                $('#exampleModal').on('hidden.bs.modal', function () {
+                    sessionStorage.removeItem('popupShown');
+                });
+            }
         });
-      </script>
-    
-    
+    </script>
+
 </body>
 
 </html>
